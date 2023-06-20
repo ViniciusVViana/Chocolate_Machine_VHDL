@@ -5,7 +5,7 @@ entity bloco_reg is
         clk   : in  std_logic;
         reset : in  std_logic;
         c_in  : in  std_logic_vector(2 downto 0);
-        c_out : out std_logic_vector(2 downto 0);
+        c_out : out std_logic_vector(2 downto 0)
     );
 end entity;
 architecture Reg of bloco_reg is
@@ -17,7 +17,7 @@ architecture Reg of bloco_reg is
         q, nq  : out std_logic
         );
     end component;
-    signal pr_aux: std_logic = '1';
+    signal pr_aux: std_logic := '1';
 begin 
     u_ffd1 : FFD port map(c_in(0),clk,pr_aux,reset,c_out(0));
     u_ffd2 : FFD port map(c_in(1),clk,pr_aux,reset,c_out(1));

@@ -28,7 +28,15 @@ architecture tb_teste of tb_chocoMaq is
             c_out : out std_logic_vector(2 downto 0);
         );
     end component;
+
+        signal sFEAtoREG, sREGtoEA : std_logic_vector(2 downto 0);
+        signal sclk: std_logic;
+
     begin
+
+
+
+
 
 
 
@@ -37,4 +45,5 @@ architecture tb_teste of tb_chocoMaq is
         sclk <= not(sclk);
         wait for CLK_PERIOD/2;
     end process;
+
 end architecture;
