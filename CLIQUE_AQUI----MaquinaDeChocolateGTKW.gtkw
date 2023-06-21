@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Wed Jun 21 02:20:05 2023
+[*]
+[dumpfile] "D:\Downloads\UNIOESTE\SD\MaquinaCholocate\Chocolate_Machine_VHDL\tb_chocoMaq.ghw"
+[dumpfile_mtime] "Wed Jun 21 02:09:37 2023"
+[dumpfile_size] 4441
+[savefile] "D:\Downloads\UNIOESTE\SD\MaquinaCholocate\Chocolate_Machine_VHDL\CLIQUE_AQUI----MaquinaDeChocolateGTKW.gtkw"
+[timestart] 0
+[size] 1366 745
+[pos] -61 -61
+*-27.497423 528900000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] top.
+[treeopen] top.tb_chocomaq.
+[sst_width] 197
+[signals_width] 167
+[sst_expanded] 1
+[sst_vpaned_height] 204
+@28
+[color] 5
+top.tb_chocomaq.u_registrator.clk
+@29
+[color] 3
+top.tb_chocomaq.u_estadanterior.m_25
+[color] 3
+top.tb_chocomaq.u_estadanterior.m_50
+@28
+[color] 4
+top.tb_chocomaq.u_estadatual.d_disp
+top.tb_chocomaq.u_estadatual.d_dev
+[color] 1
+top.tb_chocomaq.u_registrator.reset
+[color] 5
+top.tb_chocomaq.u_registrator.clk
+[color] 6
+#{top.tb_chocomaq.sregtoea[2:0]} top.tb_chocomaq.sregtoea[2] top.tb_chocomaq.sregtoea[1] top.tb_chocomaq.sregtoea[0]
+[color] 6
+#{top.tb_chocomaq.sfeatoreg[2:0]} top.tb_chocomaq.sfeatoreg[2] top.tb_chocomaq.sfeatoreg[1] top.tb_chocomaq.sfeatoreg[0]
+[pattern_trace] 1
+[pattern_trace] 0
