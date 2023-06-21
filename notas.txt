@@ -1,0 +1,1 @@
+pr_aux, dentro do registrador : comportamento estranho
